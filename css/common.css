@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+h1, h2, h3, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding: 120px 0px;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
