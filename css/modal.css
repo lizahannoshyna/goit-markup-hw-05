@@ -9,8 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 1;
-  pointer-events: auto;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .backdrop.is-open {
